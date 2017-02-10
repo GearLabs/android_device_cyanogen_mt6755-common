@@ -63,8 +63,6 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libfs_mgr
 
-PRODUCT_PACKAGES += \
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio_device.xml:system/etc/audio_device.xml \
     $(LOCAL_PATH)/configs/audio_em.xml:system/etc/audio_em.xml
