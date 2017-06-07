@@ -64,8 +64,6 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libfs_mgr
 
-PRODUCT_PACKAGES += \
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio_device.xml:system/etc/audio_device.xml \
     $(LOCAL_PATH)/configs/audio_em.xml:system/etc/audio_em.xml
@@ -123,7 +121,7 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     hostapd \
     dhcpcd.conf \
-    wpa_supplicant \
+    wpa_supplicant
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
